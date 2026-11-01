@@ -161,8 +161,8 @@ h1, h2, h3, h4 { font-family: "Space Grotesk", "Inter", sans-serif; line-height:
 }
 .theme-toggle:hover { box-shadow: var(--shadow); }
 .theme-toggle:active { transform: scale(.9) rotate(-20deg); }
-.theme-toggle svg { width: 20px; height: 20px; transition: transform .5s var(--ease), opacity .3s; }
-.theme-toggle .moon { position: absolute; opacity: 0; transform: rotate(-90deg) scale(.5); }
+.theme-toggle svg { grid-area: 1 / 1; width: 20px; height: 20px; transition: transform .5s var(--ease), opacity .3s; }
+.theme-toggle .moon { opacity: 0; transform: rotate(-90deg) scale(.5); }
 [data-theme="dark"] .theme-toggle .sun { opacity: 0; transform: rotate(90deg) scale(.5); }
 [data-theme="dark"] .theme-toggle .moon { opacity: 1; transform: rotate(0) scale(1); }
 
